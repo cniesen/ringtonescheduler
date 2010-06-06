@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="hello">来电响铃精灵</string>
+	<string name="app_name">来电响铃精灵</string>
+	<string name="add_rule">增加规则</string>
+	<string name="config_tool">程序配置</string>
+	<string name="Close">隐藏程序</string>
+	<string name="addRuleWelcome">增加规则：</string>
+	<string name="configWelcome">配置来电响铃精灵：</string>
+	<string name="everyday">每天</string>
+	<string name="weekday">工作日</string>
+	<string name="weekend">周末</string>
+	<string name="from">从：</string>
+	<string name="to">到：</string>
+	<string name="ok">确定</string>
+	<string name="cancel">取消</string>
+	<string name="radioSilent">静音</string>
+	<string name="radioVibrate">震动</string>
+	<string name="radioRing">响铃</string>
+	<string name="radioRingAndVibrate">响铃并震动</string>
+	<string name="defaultRingBehavior">默认来电响铃模式：</string>
+	<string name="autoRun">使用来电响铃精灵</string>
+	<string name="disclaimer">关于来电响铃精灵</string>
+	<string name="errorInit">初始化错误</string>
+	<string name="errorReadGlobalSetting">读取配置文件错误</string>
+	<string name="errorUpdateConfig">刷新配置错误</string>
+	<string name="errorAddRule1">起始时间应早于终止时间</string>
+	<string name="deleteThis">删除这个规则</string>
+	<string name="deleteAll">删除全部规则</string>
+
+	<string name="aboutClose">关闭</string>
+	<string name="editRuleWelcome">编辑规则：</string>
+	<string name="editThisRule">编辑这条规则</string>
+	<string name="errorAddRule2">请选择一个周期或者至少一天</string>
+	<string name="errorAddRule3">时间重叠， 重叠对象是：</string>
+	<string name="monday">周一</string>
+	<string name="tuesday">周二</string>
+	<string name="wednesday">周三</string>
+	<string name="thursday">周四</string>
+	<string name="friday">周五</string>
+	<string name="saturday">周六</string>
+	<string name="sunday">周日</string>
+	<string name="norulesyet">暂无规则</string>
+	<string name="enableNotification">改变响铃模式时提醒我</string>
+	<string name="every">每</string>
+	<string name="aboutMessage">来电响铃精灵\n版本: 2.6\n\n作者:
+		张帆\nfredplusplus@gmail.com\nhttp://www.fzhang.co.cc\n\n\n部分图标取自网络，受限于GPL协议\n\n
+		本程序保留版权，未经授权不得传播\n
+	</string>
+</resources>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="wrap_content" android:orientation="vertical"
+	android:layout_width="fill_parent">
+	<LinearLayout android:id="@+id/LinearLayout03"
+		android:layout_height="wrap_content" android:layout_width="fill_parent">
+		<LinearLayout android:id="@+id/LinearLayout04"
+			android:gravity="center" android:layout_width="wrap_content"
+			android:layout_height="fill_parent">
+			<ImageView android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:src="@drawable/invalid"
+				android:id="@+id/jobIcon"></ImageView>
+		</LinearLayout>
+		<LinearLayout android:id="@+id/LinearLayout05"
+			android:layout_height="wrap_content" android:orientation="vertical"
+			android:layout_width="fill_parent">
+			<LinearLayout android:id="@+id/LinearLayout02"
+				android:layout_height="wrap_content" android:orientation="vertical"
+				android:gravity="center" android:layout_width="fill_parent">
+				<TextView android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:text="@+id/FREQ"
+					android:id="@+id/frequencyText" android:textSize="25sp"></TextView>
+				<TextView android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:text="notify"
+					android:id="@+id/notifyTypeText" android:textSize="20sp"></TextView>
+			</LinearLayout>
+			<LinearLayout android:id="@+id/LinearLayout01"
+				android:layout_height="wrap_content" android:layout_width="fill_parent">
+				<TextView android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:text="from"
+					android:id="@+id/fromText" android:textSize="18sp" android:gravity="center"
+					android:layout_gravity="center"></TextView>
+				<TextView android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:text="    "
+					android:layout_gravity="center"></TextView>
+				<TextView android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:id="@+id/toText"
+					android:text="to" android:textSize="18sp" android:gravity="center"
+					android:layout_gravity="center"></TextView>
+			</LinearLayout>
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="hello">Ringtone Scheduler</string>
+	<string name="app_name">Ringtone Scheduler</string>
+	<string name="add_rule">Add a Rule</string>
+	<string name="config_tool">Config Tool</string>
+	<string name="Close">Hide This</string>
+	<string name="addRuleWelcome">Add a Rule:</string>
+	<string name="configWelcome">Config Ringtone Scheduler:</string>
+	<string name="everyday">Everyday</string>
+	<string name="weekday">Weekday</string>
+	<string name="weekend">Weekend</string>
+	<string name="from">From: </string>
+	<string name="to"> To:  </string>
+	<string name="ok">OK</string>
+	<string name="cancel">Cancel</string>
+	<string name="radioSilent">Silent</string>
+	<string name="radioVibrate">Vibrate</string>
+	<string name="radioRing">Ring</string>
+	<string name="radioRingAndVibrate">Ring/Vibrate</string>
+	<string name="defaultRingBehavior">Default Ringtone Behavior: </string>
+	<string name="autoRun">Enable Ringtone Scheduler</string>
+	<string name="disclaimer">About Ringtone Scheduler</string>
+	<string name="errorInit">Error Occurred during Initialization</string>
+	<string name="errorReadGlobalSetting">Error Occurred while Reading Ringtone Settings
+	</string>
+	<string name="errorUpdateConfig">Error Occurred during Config Update</string>
+	<string name="errorAddRule1">Start Time Should Be Earlier than Stop Time.
+	</string>
+	<string name="deleteThis">Delete This Rule</string>
+	<string name="deleteAll">Delete All Rules</string>
+	<string name="version">1.0</string>
+	<string name="aboutClose">Close</string>
+	<string name="editRuleWelcome">Edit Rule</string>
+	<string name="editThisRule">Edit This Rule</string>
+	<string name="errorAddRule2">Please Select a Frequency or at least an Individual
+		Day</string>
+	<string name="errorAddRule3">Time Over Lap with</string>
+	<string name="monday">Mon</string>
+	<string name="tuesday">Tue</string>
+	<string name="wednesday">Wed</string>
+	<string name="thursday">Thu</string>
+	<string name="friday">Fri </string>
+	<string name="saturday">Sat</string>
+	<string name="sunday">Sun</string>
+	<string name="norulesyet">No Rules Yet</string>
+	<string name="enableNotification">Enable Change Notification</string>
+	<string name="aboutMessage">Ringtone Scheduler\nVersion: 2.6\n\nAuthor: Fan
+		Zhang\nfredplusplus@gmail.com\nhttp://www.fzhang.co.cc\n\n\nIcons
+		Collected under GPL\n\nProgram Copy Rights All Reserved.\n
+	</string>
+	<string name="every">Every</string>
+</resources>
