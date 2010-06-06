@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:scrollbars="vertical"
+	android:layout_height="fill_parent" android:layout_width="fill_parent"
+	android:gravity="center" android:background="@drawable/background">
+	<TextView android:text="@string/addRuleWelcome"
+		android:textSize="30sp" android:layout_height="wrap_content"
+		android:gravity="center" android:layout_width="fill_parent"
+		android:id="@+id/addoreditTitle"></TextView>
+	<ScrollView android:id="@+id/ScrollView01"
+		android:layout_width="wrap_content" android:layout_height="wrap_content">
+		<TableLayout android:id="@+id/TableLayout01"
+			android:layout_width="wrap_content" android:layout_height="wrap_content">
+			<TableRow android:id="@+id/TableRow01" android:layout_width="wrap_content"
+				android:layout_height="wrap_content">
+				<LinearLayout android:id="@+id/LinearLayout01"
+					android:layout_width="wrap_content" android:layout_height="wrap_content">
+					<RadioGroup android:layout_width="wrap_content"
+						android:layout_height="wrap_content" android:orientation="horizontal"
+						android:id="@+id/freqGroup">
+						<RadioButton android:text="@string/everyday"
+							android:id="@+id/everyday" android:layout_width="wrap_content"
+							android:layout_height="wrap_content" android:layout_weight="1"></RadioButton>
+						<RadioButton android:text="@string/weekday"
+							android:id="@+id/weekday" android:layout_width="wrap_content"
+							android:layout_height="wrap_content" android:checked="true"
+							android:layout_weight="1"></RadioButton>
+						<RadioButton android:text="@string/weekend"
+							android:id="@+id/weekend" android:layout_width="wrap_content"
+							android:layout_height="wrap_content" android:layout_weight="1"></RadioButton>
+					</RadioGroup>
+				</LinearLayout>
+			</TableRow>
+			<TableRow android:id="@+id/TableRow07" android:layout_width="wrap_content"
+				android:layout_height="wrap_content">
+				<LinearLayout android:id="@+id/LinearLayout07"
+					android:layout_width="wrap_content" android:layout_height="wrap_content">
+
+					<TextView android:layout_width="wrap_content"
+						android:layout_height="wrap_content" android:layout_weight="1"
+						android:text="@string/monday" android:textSize="20sp"></TextView>
+					<TextView android:id="@+id/TextView02"
+						android:layout_width="wrap_content" android:layout_height="wrap_content"
+						android:layout_weight="1" android:text="@string/tuesday"
+						android:textSize="20sp"></TextView>
+					<TextView android:id="@+id/TextView01"
+						android:layout_width="wrap_content" android:layout_height="wrap_content"
+						android:layout_weight="1" android:text="@string/wednesday"
+						android:textSize="20sp"></TextView>
+					<TextView android:id="@+id/TextView03"
+						android:layout_width="wrap_content" android:layout_height="wrap_content"
+						android:layout_weight="1" android:text="@string/thursday"
+						android:textSize="21sp"></TextView>
+					<TextView android:layout_width="wrap_content"
+						android:layout_height="wrap_content" android:layout_weight="1"
+						android:text="@string/friday" android:textSize="21sp"></TextView>
+					<TextView android:id="@+id/TextView05"
+						android:layout_width="wrap_content" android:layout_height="wrap_content"
+						android:layout_weight="1" android:text="@string/saturday"
+						android:textSize="21sp"></TextView>
+					<TextView android:id="@+id/TextView04"
+						android:layout_width="wrap_content" android:layout_height="wrap_content"
+						android:textSize="21sp" android:layout_weight="1" android:text="@string/sunday"></TextView>
+				</LinearLayout>
+			</TableRow>
+			<TableRow android:id="@+id/TableRow06" android:layout_width="wrap_content"
+				android:layout_height="wrap_content">
+				<LinearLayout android:id="@+id/LinearLayout06"
+					android:layout_width="wrap_content" android:layout_height="wrap_content">
+					<CheckBox android:layout_width="wrap_content"
+						android:layout_height="wrap_content" android:layout_weight="1"
+						android:id="@+id/mon"></CheckBox>
+					<CheckBox android:layout_width="wrap_content"
+						android:layout_height="wrap_content" android:layout_weight="1"
+						android:id="@+id/tue"></CheckBox>
+					<CheckBox android:layout_width="wrap_content"
+						android:layout_height="wrap_content" android:layout_weight="1"
+						android:id="@+id/wed"></CheckBox>
+					<CheckBox android:layout_width="wrap_content"
+						android:layout_height="wrap_content" android:layout_weight="1"
+						android:id="@+id/thur"></CheckBox>
+
+
+					<CheckBox android:layout_width="wrap_content"
+						android:layout_height="wrap_content" android:layout_weight="1"
+						android:id="@+id/fri"></CheckBox>
+					<CheckBox android:layout_width="wrap_content"
+						android:layout_height="wrap_content" android:layout_weight="1"
+						android:id="@+id/sat"></CheckBox>
+					<CheckBox android:layout_width="wrap_content"
+						android:layout_height="wrap_content" android:layout_weight="1"
+						android:id="@+id/sun"></CheckBox>
+				</LinearLayout>
+			</TableRow>
+			<TableRow android:id="@+id/TableRow02" android:layout_width="wrap_content"
+				android:layout_height="wrap_content">
+				<LinearLayout android:id="@+id/LinearLayout02"
+					android:layout_height="wrap_content" android:orientation="horizontal"
+					android:layout_width="fill_parent" android:gravity="right">
+					<TextView android:textSize="30sp" android:text="@string/from"
+						android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+					<TimePicker android:id="@+id/fromTime"
+						android:layout_width="wrap_content" android:layout_height="wrap_content"></TimePicker>
+
+
+				</LinearLayout>
+			</TableRow>
+			<TableRow android:id="@+id/TableRow03" android:layout_width="wrap_content"
+				android:layout_height="wrap_content">
+				<LinearLayout android:id="@+id/LinearLayout03"
+					android:layout_height="wrap_content" android:orientation="horizontal"
+					android:layout_width="fill_parent" android:gravity="right">
+					<TextView android:textSize="30sp" android:text="@string/to"
+						android:layout_height="wrap_content" android:layout_width="wrap_content"></TextView>
+					<TimePicker android:id="@+id/toTime"
+						android:layout_width="wrap_content" android:layout_height="wrap_content"></TimePicker>
+				</LinearLayout>
+			</TableRow>
+			<TableRow android:id="@+id/TableRow04" android:layout_width="wrap_content"
+				android:layout_height="wrap_content">
+				<LinearLayout android:id="@+id/LinearLayout05"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:orientation="vertical">
+					<RadioGroup android:id="@+id/RadioGroup01"
+						android:layout_width="wrap_content" android:layout_height="wrap_content">
+						<RadioButton android:text="@string/radioSilent"
+							android:id="@+id/radioSlient" android:layout_width="wrap_content"
+							android:layout_height="wrap_content" android:checked="true"></RadioButton>
+						<RadioButton android:text="@string/radioVibrate"
+							android:id="@+id/radioVibrate" android:layout_width="wrap_content"
+							android:layout_height="wrap_content"></RadioButton>
+						<RadioButton android:text="@string/radioRing"
+							android:id="@+id/radioRing" android:layout_width="wrap_content"
+							android:layout_height="wrap_content"></RadioButton>
+						<RadioButton android:text="@string/radioRingAndVibrate"
+							android:id="@+id/radioRingAndVibrate" android:layout_width="wrap_content"
+							android:layout_height="wrap_content"></RadioButton>
+					</RadioGroup>
+				</LinearLayout>
+			</TableRow>
+			<TableRow android:id="@+id/TableRow05" android:layout_width="wrap_content"
+				android:layout_height="wrap_content">
+				<LinearLayout android:id="@+id/LinearLayout04"
+					android:layout_height="wrap_content" android:layout_width="fill_parent">
+					<Button android:text="@string/ok" android:id="@+id/btnAddRuleOK"
+						android:layout_width="wrap_content" android:layout_height="wrap_content"
+						android:layout_weight="1"></Button>
+					<Button android:text="@string/cancel" android:id="@+id/btnAddRuleCancel"
+						android:layout_height="wrap_content" android:layout_width="wrap_content"
+						android:layout_weight="1"></Button>
+				</LinearLayout>
+			</TableRow>
+		</TableLayout>
+	</ScrollView>
+
+
+
+
+
+
+
+</LinearLayout>

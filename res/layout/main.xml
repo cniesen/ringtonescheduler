@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:addStatesFromChildren="true"
+	android:gravity="center_horizontal" android:background="@drawable/background">
+	<TextView android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:textSize="30sp"
+		android:text="@string/hello" android:gravity="center" />
+	<TableLayout android:id="@+id/TableLayout01"
+		android:layout_width="fill_parent" android:animationCache="true"
+		android:orientation="horizontal" android:layout_height="wrap_content">
+		<TableRow android:id="@+id/TableRow01" android:layout_width="fill_parent"
+			android:layout_height="fill_parent">
+
+			<Button android:id="@+id/btnAddRule" android:layout_height="fill_parent"
+				android:layout_weight="1" android:text="@string/add_rule"></Button>
+			<Button android:id="@+id/btnConfigTool" android:layout_height="fill_parent"
+				android:layout_weight="1" android:text="@string/config_tool"></Button>
+			<Button android:text="@string/Close" android:layout_weight="1"
+				android:id="@+id/btnExit" android:layout_height="fill_parent"></Button>
+		</TableRow>
+	</TableLayout>
+	<ListView android:id="@+id/scheduleView" android:layout_width="fill_parent"
+		android:layout_height="fill_parent">
+	</ListView>
+</LinearLayout>
